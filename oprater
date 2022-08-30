@@ -18,3 +18,23 @@ void main() {
     
     
 }
+//postincrement
+//30 Aug 2022
+#include <stdio.h>
+
+void main() {
+    // increment oprater
+    int i;
+    i=15;
+    printf("value of i=%d\n",i);
+    i++;
+    printf("value of i=%d\n",i);
+     printf("--------------\n");
+
+    int  x;
+    x=i++;
+    printf("value of i=%d\n",i);
+    printf("value of x=%d",x);
+    
+    
+}
