@@ -1,0 +1,55 @@
+or
+#include <stdio.h>
+
+int main() {
+    int age;
+    float per;
+    printf ("enter your age");
+    scanf ( "%d"    ,& age );
+    printf ("enter your per");
+    scanf ( "%f",& per );
+    (age>=18 || per>=40)? printf ("welcom") : printf ("sorry");
+   return 0;
+
+
+
+
+
+
+
+and 
+}#include <stdio.h>
+
+int main() {
+    int age;
+    float per;
+    printf ("enter your age");
+    scanf ( "%d"    ,& age );
+    printf ("enter your per");
+    scanf ( "%f",& per );
+    (age>=18 && per>=40)? printf ("welcom") : printf ("sorry");
+   return 0;
+
+
+
+
+
+
+
+ 
+     }#include <stdio.h>
+   
+void main() {
+    int a;
+    int b;
+    int c;
+    printf (    "enter first value\n"    );
+    scanf("%d"    ,&a               );
+    printf(     "enter second value\n");
+    scanf( "%d",&b);
+    c=a+b;
+    printf( "sum is %d", c);
+    
+}
+
+Mk#2022bcp
