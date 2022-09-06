@@ -1,0 +1,15 @@
+// wirte c progreming using constant,variabal,and arithmetic expression
+//Abdul Aleem
+//06-09-2022
+#include <stdio.h>
+void main() {
+    float r;
+    const float PI=3.14;
+    float A;
+    printf("enter radias\n");
+    scanf( "%f",& r);
+    A=PI*r*r;
+    printf("area is %f",A);
+  
+  
+}
