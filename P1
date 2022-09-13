@@ -1,0 +1,38 @@
+// sum of two number swapping
+// ABDUL ALEEM
+// 13-09-2022
+#include <stdio.h>
+void main() {
+    int a;
+    int b;
+    int c;
+    printf("enter first value a:\n");
+    scanf("%d",&a);
+    printf("enter second value b:\n");
+    scanf("%d",&b);
+    c=a;
+    a=b;
+    b=c;
+    printf("value ofa %d\n",a);
+     printf("value of b %d",b);
+}
+  
+  
+  
+  
+  
+  // sum of two number
+// ABDUL ALEEM
+// 13-09-2022
+#include <stdio.h>
+void main() {
+    int a;
+    int b;
+    int c;
+    printf("enter first value a:\n");
+    scanf("%d",&a);
+    printf("enter second value b:\n");
+    scanf("%d",&b);
+    c=a+b;
+    printf("value of c: %d",c);
+}
