@@ -1,0 +1,11 @@
+// increment
+// ABDUL ALEEM
+#include <stdio.h>
+
+void main() {
+    int a;
+    a=10;
+    printf("value of a:%d\n",a);
+    a++;
+    printf("value of a:%d",a);
+}
