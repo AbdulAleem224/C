@@ -1,0 +1,26 @@
+/*write a program to accept tha value of year as input from the keyword and print whether it is a leap year or not
+*/
+#include <stdio.h>
+void main ()
+{
+    int year;
+    printf("enter year:");
+    scanf("%d",&year);
+    if (year%4==0)
+    {
+        printf("this is leap year");
+    }
+    else 
+    {
+        printf("this is not leap year");
+    }
+}
+
+
+output
+enter year:2003
+this is not leap year
+
+
+enter year:2020
+this is leap year
