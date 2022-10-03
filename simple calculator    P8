@@ -1,0 +1,92 @@
+// simple calculater
+/* write a program to add, subtract,multiply & divison,two number accepted from user by using swith*/
+//ABDUL ALEEM
+// 3-10-2022
+#include <stdio.h>
+int main() {
+    int N1,N2,add,sub,mul,div,option;
+    printf("enter first number:N1=");
+    scanf("%d",&N1);
+    printf("enter second number:N2=");
+    scanf("%d",&N2);
+    printf( "\n menu");
+    printf("\n 1:addition");
+    printf("\n 2:subtraction");
+    printf("\n 3:multiplition");
+    printf("\n 4:divison");
+    printf("\n enter any on number (1 to 4)");
+    scanf("%d",&option);
+
+switch(option)
+{
+case 1:
+add=N1+N2;
+printf("addition of N1&N2 is %d",add);
+break;
+case 2:
+sub=N1-N2;
+printf("subtraction of N1&N2 is %d",sub);
+break;
+case 3:
+mul=N1*N2;
+printf("multiplition of N1&N2 is %d",mul);
+break;
+case 4:
+div=N1/N2;
+printf("divison of N1&N2 is %d",div);
+break;
+default :
+printf ("invalid option");
+}
+}
+
+output
+enter first number:N1=2
+enter second number:N2=2
+menu
+ 1:addition
+ 2:subtraction
+ 3:multiplition
+ 4:divison
+ enter any on number (1 to 4)1
+ addition of N1&N2 is 4
+ 
+ enter first number:N1=2
+enter second number:N2=2
+menu
+ 1:addition
+ 2:subtraction
+ 3:multiplition
+ 4:divison
+ enter any on number (1 to 4)2
+ subtraction of N1&N2 is 0
+ 
+ enter first number:N1=2
+enter second number:N2=2
+menu
+ 1:addition
+ 2:subtraction
+ 3:multiplition
+ 4:divison
+ enter any on number (1 to 4)3
+ multiplition of N1&N2 is 4
+ 
+ enter first number:N1=2
+enter second number:N2=2
+menu
+ 1:addition
+ 2:subtraction
+ 3:multiplition
+ 4:divison
+ enter any on number (1 to 4)4
+ divison of N1&N2 is 1
+ 
+ enter first number:N1=2
+enter second number:N2=2
+menu
+ 1:addition
+ 2:subtraction
+ 3:multiplition
+ 4:divison
+ enter any on number (1 to 4)5
+ invalid option
