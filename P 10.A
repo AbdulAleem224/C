@@ -1,0 +1,29 @@
+/*
+10.A find fibonacci series for given number 
+*/
+// fibonacci series  - 0  1  1  2  3  5  8  13.........
+//ABDUL ALEEM
+//11-10-2022
+#include <stdio.h>
+
+int main() {
+    int n;
+    int a=0;
+    int b=1;
+    int c;
+    printf("enter number :");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        printf("%d ",a);
+        c=a+b;
+        a=b;
+        b=c;
+    }
+}
+   
+   
+   out put 
+   
+   enter number :5
+0 1 1 2 3 
