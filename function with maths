@@ -1,0 +1,24 @@
+//functin with c maths
+#include <stdio.h>
+#include <math.h>
+
+void main() {
+   float a;
+   printf("enter value of a \n");
+   scanf("%f ",&a);
+   printf("%f \n",ceil(a));
+   printf("%f \n",floor(a));
+   printf("%f \n",sqrt(a));
+   printf("%f \n",pow(a,2));
+  
+}
+
+
+
+out put
+enter value of a 
+3.1
+4.000000 
+3.000000 
+1.760682 
+9.609999 
